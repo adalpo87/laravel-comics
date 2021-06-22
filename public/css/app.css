@@ -1,0 +1,229 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  height: 115px;
+  width: 100%;
+}
+header .container {
+  width: 70%;
+  height: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+header .container .left {
+  height: 100%;
+}
+header .container .left a {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100%;
+}
+header .container .left a img {
+  height: 70%;
+}
+header .container .right {
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+header .container .right ul {
+  display: flex;
+  height: 100%;
+  justify-content: flex-end;
+  align-items: center;
+}
+header .container .right ul li {
+  text-transform: uppercase;
+  list-style: none;
+  margin-left: 15px;
+  height: 100%;
+  line-height: 115px;
+}
+header .container .right ul li:hover, header .container .right ul li.active {
+  border-bottom: 3px solid #0282F9;
+}
+header .container .right ul li a {
+  text-decoration: none;
+  color: #292C21;
+  font-size: 0.8rem;
+}
+
+main {
+  width: 100%;
+  color: white;
+  background-color: #303030;
+}
+main .wrapper {
+  height: 45vh;
+  background-image: url(../img/jumbotron.jpg);
+  background-size: cover;
+  width: 100%;
+}
+main .wrapper .container {
+  width: 70%;
+  margin: auto;
+  height: 100%;
+  position: relative;
+}
+main .wrapper .container .cur-series {
+  padding: 12px 40px;
+  background-color: #0282F9;
+  font-weight: 600;
+  position: absolute;
+  bottom: -20px;
+}
+
+.series {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+.series ul {
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.series ul li {
+  list-style: none;
+  width: calc(100% / 6);
+  padding: 20px;
+  text-align: left;
+}
+.series ul li img {
+  width: 90%;
+}
+.series ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 0.7rem;
+}
+.series button {
+  margin: 30px;
+  padding: 8px 40px;
+  border-radius: 0;
+  border: none;
+  background-color: #0282F9;
+  color: white;
+  font-weight: 600;
+}
+
+footer .blue-line {
+  height: 150px;
+  background-color: #0282F9;
+}
+footer .blue-line ul {
+  width: 70%;
+  margin: auto;
+  height: 100%;
+  display: flex;
+}
+footer .blue-line ul li {
+  width: calc(100% / 5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer .blue-line ul li img {
+  width: 20%;
+}
+footer .blue-line ul li a {
+  margin: 14px;
+  font-size: 12px;
+  text-decoration: none;
+  color: white;
+}
+footer .terms {
+  min-height: 300px;
+  height: 80%;
+  background-image: url(../img/footer-bg.jpg);
+}
+footer .terms .container {
+  width: 70%;
+  margin: auto;
+  height: 100%;
+  display: flex;
+}
+footer .terms .container .listaDC {
+  width: 40%;
+  height: 100%;
+  display: flex;
+}
+footer .terms .container .listaDC section {
+  width: calc(100% / 3);
+}
+footer .terms .container .listaDC section h5 {
+  color: white;
+  text-transform: uppercase;
+  margin: 15px 0px;
+  font-size: 110%;
+}
+footer .terms .container .listaDC section ul {
+  margin-bottom: 10px;
+}
+footer .terms .container .listaDC section ul li {
+  list-style: none;
+}
+footer .terms .container .listaDC section ul li a {
+  text-decoration: none;
+  color: #678A95;
+  font-size: 80%;
+}
+footer .terms .container .logoDC {
+  width: 60%;
+  background-image: url(../img/dc-logo-bg.png);
+  background-size: 80%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+footer .sign {
+  width: 100%;
+  height: 12vh;
+  display: flex;
+  background-color: #303030;
+}
+footer .sign .container {
+  height: 100%;
+  width: 70%;
+  margin: auto;
+  display: flex;
+}
+footer .sign .container .footer-left {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  align-items: center;
+}
+footer .sign .container .footer-left a {
+  text-decoration: none;
+  color: white;
+  padding: 13px 5px;
+  border: 2px solid #0282F9;
+}
+footer .sign .container .footer-right {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+}
+footer .sign .container .footer-right ul {
+  display: flex;
+  align-items: center;
+}
+footer .sign .container .footer-right ul li {
+  list-style: none;
+  margin-left: 15px;
+}
+footer .sign .container .footer-right ul li a {
+  color: #0282F9;
+  text-decoration: none;
+}
